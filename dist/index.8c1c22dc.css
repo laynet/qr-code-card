@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card-holder {
+  width: 100vw;
+  min-height: 100vh;
+  background: #D5E1EF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #FFFFFF;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+  padding: 16px;
+  text-align: center;
+  width: 41%;
+  max-width: 300px;
+}
+@media (min-width: 414px) {
+  .card {
+    width: 90%;
+  }
+}
+
+h1 {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #1F314F;
+  padding-top: 24px;
+  width: 98%;
+}
+
+p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+  color: #7D889E;
+  padding: 30px;
+}
+
+img {
+  border-radius: 20px;
+  width: 98%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=index.8c1c22dc.css.map */
